@@ -20,7 +20,7 @@ requirements:
     - python >=3.3
   run:
     - lazy
-    - packaging
+    - packaging <22
     - py >=1.4.20
     - python >=3.3
     - requests >=2.3.0
