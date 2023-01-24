@@ -1,5 +1,5 @@
 {% set name = "devpi-common" %}
-{% set version = "3.7.1" %}
+{% set version = "3.7.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/devpi-common-{{ version }}.tar.gz
-  sha256: 6382d25a8eac6c79f6dfda927508f07d93b8732372a061505551af65b46061f4
+  sha256: 9078989279ad79e9c181c7badc4a738460445187101eb0cbade675934d5e4644
 
 build:
   noarch: python
