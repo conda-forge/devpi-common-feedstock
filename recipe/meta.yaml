@@ -17,12 +17,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.3
+    - python >=3.7
   run:
     - lazy
-    - packaging <22
-    - py >=1.4.20
-    - python >=3.3
+    - packaging >=22
+    - python >=3.7
     - requests >=2.3.0
 
 test:
