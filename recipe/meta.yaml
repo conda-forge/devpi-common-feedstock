@@ -1,17 +1,17 @@
-{% set version = "4.0.4" %}
+{% set version = "4.1.0" %}
 
 package:
   name: devpi-common
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/d/devpi-common/devpi_common-{{ version }}.tar.gz
-  sha256: 235a0a9a45c96e54c60ba6ba2f77d856cf90f1a69c1bee949887e9edc03a41cc
+  url: https://pypi.org/packages/source/d/devpi-common/devpi-common-{{ version }}.tar.gz
+  sha256: 58d7f761e3fe7fdfe449c4a6a9e2350d4ddfbeb66cb0f6d208025142943030d3
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 2
+  number: 0
 
 requirements:
   host:
