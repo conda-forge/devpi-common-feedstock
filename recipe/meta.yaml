@@ -18,6 +18,8 @@ requirements:
     - pip
     - python {{ python_min }}
     - setuptools
+    - setuptools-changelog-shortener
+    - wheel
   run:
     - lazy
     - packaging-legacy
