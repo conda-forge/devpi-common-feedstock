@@ -1,15 +1,15 @@
 schema_version: 1
 
 context:
-  version: 4.1.0
+  version: "4.1.1"
 
 package:
   name: devpi-common
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/d/devpi-common/devpi-common-${{ version }}.tar.gz
-  sha256: 58d7f761e3fe7fdfe449c4a6a9e2350d4ddfbeb66cb0f6d208025142943030d3
+  url: https://pypi.org/packages/source/d/devpi-common/devpi_common-${{ version }}.tar.gz
+  sha256: a413dcc9d1cb6430ff09c7f4e0d76b39910fb5b3419882d78384c3e0fb785931
 
 build:
   number: 0
