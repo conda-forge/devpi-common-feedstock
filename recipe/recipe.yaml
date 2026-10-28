@@ -34,7 +34,9 @@ tests:
       imports:
         - devpi_common
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
 
 about:
   summary: Devpi utilities jointly used by devpi-server and devpi-client
